@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-violet-200">
+
+   
+   <div>
+      <nav class="bg-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="flex items-center justify-between h-16">
+            <!-- Logo -->
+            <div class="flex-shrink-0">
+              <img class="h-8 w-auto" src="https://cdn.pixabay.com/photo/2014/04/03/09/58/man-309490_960_720.png" alt="Logo">
+            </div>
+      
+            <!-- Mobile menu button -->
+            <div class="flex md:hidden">
+              <button type="button" class="text-gray-400 hover:text-white focus:outline-none focus:text-white" aria-label="Toggle menu">
+                <svg class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+              </button>
+            </div>
+      
+            <!-- Desktop menu -->
+            <div class="hidden md:block">
+              <div class="ml-4 flex items-center md:ml-6">
+              
+                <a class="bg-black text-white p-2 rounded-md font-bold" href="/bank.html">Home</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <!-- Mobile menu -->
+        <div class="hidden md:hidden">
+          <div class="px-2 pt-2 pb-3 sm:px-3">
+            <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-white hover:bg-gray-700">Login</a>
+          </div>
+        </div>
+      </nav>
+      
+    </div>
+
+
+ <header>
+    <h1 class="text-5xl text-center mt-20"> Welcome To <span class="font-bold text-purple-500 ">Money</span> Bank</h1>
+ </header>
+
+
+ <main>
+    <section class="bg-gradient-to-r from-zinc-400 to-zinc-700 w-7/12 mx-auto mt-20 p-8 rounded">
+        <h3 class="text-3xl mb-4 font-semibold">Please Login</h3>
+        <input id="email-id" class="py-2 px-8 rounded w-9/12 block mb-4" type="email" placeholder="Enter Your Email">
+        <input class="py-2 px-8 rounded w-9/12 block mb-4" type="password" name="" id="password-id" placeholder="Enter Your Password">
+        <button id="submit-btn" class="bg-red-400 hover:bg-red-600 px-4 py-2 rounded font-semibold">Submit</button>
+    </section>
+ </main>
+
+
+
+
+
+
+
+
+
+
+ <script src="script.js"></script>
+</body>
+</html>
